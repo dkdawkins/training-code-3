@@ -1,0 +1,39 @@
+/* BASIC SELECTORS */
+/* wildcard or omni selector */
+* {
+  color: blue;
+  color: #0000ff; /*also 00f*/
+  color: rgb(0, 0, 255, 1);
+  color: hsl(240, 100, 50);
+}
+
+/* tag (precedence over omni) */
+h1 {
+  color: #ff0000;
+}
+
+/* class (precedence over tag) */
+*.banner {
+  color: #00ff00;
+}
+
+/* tag-class (precedence over class alone) */
+h2.banner {
+  color: #ff00ff;
+}
+
+/* id (avoid using this!)*/
+#notify {
+  color: #00ffff;
+}
+
+/* COMPUND SELECTORS */
+/* ancestor-descendant */
+section p {
+  color: #ff0000;
+}
+
+/* parent-child */
+section > p {
+  color: #00ff00;
+}
