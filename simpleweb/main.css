@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  color: #333333;
+  background-color: #dddddd;
+  font-family: sans-serif;
+}
+
+main > section {
+  display: flex;
+  justify-content: space-evenly;
+}

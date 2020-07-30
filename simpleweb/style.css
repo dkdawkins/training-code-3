@@ -37,3 +37,36 @@ section p {
 section > p {
   color: #00ff00;
 }
+
+/* adjacent sibling (must be next to each other)*/
+section + section {
+  color: yellow;
+}
+
+/* any sibling */
+section ~ section {
+  color: orange;
+}
+
+/* PSEUDO CLASS */
+h1:hover {
+  color: tomato;
+}
+
+a:link {
+  color: magenta;
+}
+
+:active {
+
+}
+
+:blur {
+
+}
+
+:focus {
+
+}
+
+/* (0,0,0,0) 1=tag, 10=class, 100=id, 1000=important, additive (think of them like points)*/
